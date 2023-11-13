@@ -1,0 +1,7 @@
+@media (min-width: 1024px) {
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,60 @@
+/* productos */
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.title h2 {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.productos {
+  display: flex;
+  text-align: center;
+  margin-bottom: 30px;
+  width: 80%;
+}
+
+.card {
+  box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  background-color: #2dbb44;
+  margin: 0 10px 20px 0;
+}
+
+.card img {
+  border-radius: 5px;
+  width: 252px;
+  height: 252px;
+}
+
+.card h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.card p {
+  font-weight: 300;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.card-info button {
+  background-color: yellow;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bt {
+  width: 35px;
+  height: 30px;
+}

@@ -4,10 +4,6 @@
   font-family: "Roboto", sans-serif;
 }
 
-/* grid */
-
-/* header */
-
 header {
   display: flex;
   justify-content: center;
@@ -41,23 +37,16 @@ nav ul {
 
 .boton :hover {
   background-color: #2dbb44;
-  color: #ffff;
+  color: white;
   border-radius: 5px;
   border: none;
   transition: border-color 0.3s, background-color 0.3s, color 0.3s;
 }
 
 /* main */
-
 .fondo {
   width: 100%;
   margin-bottom: 40px;
-}
-
-.main {
-  display: flex;
-  justify-content: center;
-  width: 100%;
 }
 
 .main-layout {
@@ -68,7 +57,6 @@ nav ul {
 }
 
 /* index */
-
 .ubicacion {
   display: flex;
   justify-content: space-evenly;
@@ -76,13 +64,13 @@ nav ul {
   margin-bottom: 50px;
   width: 100%;
 }
+
 .local {
   height: 450px;
   width: 45%;
 }
 
 /* productos */
-
 .title {
   text-align: center;
   margin-bottom: 30px;
@@ -141,11 +129,12 @@ nav ul {
   width: 35px;
   height: 30px;
 }
-/* carrito */
 
+/* carrito */
 .carrito-pedido {
   width: 43%;
 }
+
 .producto-carrito {
   display: flex;
   align-items: center;
@@ -212,8 +201,8 @@ nav ul {
 .subtotal h4 {
   margin-top: 5px;
 }
-/* footer */
 
+/* footer */
 footer {
   grid-area: footer;
   display: flex;
@@ -244,8 +233,6 @@ footer {
   padding: 5px;
 }
 
-/* Media queries */
-
 @media (min-width: 1024px) {
   .productos {
     display: flex;
@@ -253,38 +240,27 @@ footer {
     justify-content: space-between;
   }
 }
-
 /* tablet */
-
-@media (min-width: 769px) and (max-width: 1023px) {
-}
-
 /* mobile */
-
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
     align-items: center;
   }
-
   nav ul {
     display: flex;
     text-align: center;
   }
-
   .boton {
     padding: 5px;
   }
-
   .footercont {
     display: flex;
     flex-direction: column;
     text-align: center;
     margin-top: 10px;
   }
-
   /* index */
-
   .ubicacion {
     display: flex;
     flex-direction: column;
@@ -300,49 +276,41 @@ footer {
     height: 300px;
   }
   /* productos */
-
   .productos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-
   .card {
     margin-bottom: 20px;
   }
-
   /* carrito */
-
   .main-layout {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
   .carrito-pedido {
     width: 80%;
   }
-
   .producto-carrito {
     display: flex;
     flex-direction: column;
   }
-
   .img-carrito {
     margin-top: 15px;
   }
-
   .cont-prod-carr {
     display: flex;
     flex-direction: column;
   }
-
   .button-carrito {
     margin: 10px;
   }
-
   .resumen {
     width: 80%;
     margin: 0 0 30px 0;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
