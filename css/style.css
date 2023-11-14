@@ -89,7 +89,6 @@ header nav .navbar ul li .boton:hover {
   margin-bottom: 30px;
   width: 100%;
 }
-
 .title h2 {
   font-weight: 600;
   font-size: 22px;
@@ -101,44 +100,35 @@ header nav .navbar ul li .boton:hover {
   margin-bottom: 30px;
   width: 80%;
 }
-
-.card {
+.productos .card {
   box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
   background-color: #2dbb44;
   margin: 0 10px 20px 0;
 }
-
-.card img {
+.productos .card img {
   border-radius: 5px;
   width: 252px;
   height: 252px;
 }
-
-.card h3 {
-  font-size: 20px;
-  font-weight: 400;
-}
-
-.card p {
-  font-weight: 300;
-}
-
-.card-info {
+.productos .card .card-info {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 60%;
   margin: 0 auto;
 }
-
-.card-info button {
+.productos .card .card-info h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.productos .card .card-info p {
+  font-weight: 300;
+}
+.productos .card .card-info button {
   background-color: yellow;
   border-radius: 5px;
   cursor: pointer;
-}
-
-.bt {
   width: 35px;
   height: 30px;
 }
@@ -231,18 +221,14 @@ footer .footercont .redes li {
   }
 }
 /* tablet */
-/* mobile */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
     align-items: center;
   }
-  nav ul {
+  .navbar ul {
     display: flex;
     text-align: center;
-  }
-  .boton {
-    padding: 5px;
   }
   .footercont {
     display: flex;
@@ -250,13 +236,15 @@ footer .footercont .redes li {
     text-align: center;
     margin-top: 10px;
   }
-  /* index */
+  .footercont .redes {
+    display: flex;
+  }
   .ubicacion {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .local {
+  .ubicacion .local {
     height: auto;
     margin-bottom: 20px;
     width: 100%;
@@ -265,39 +253,37 @@ footer .footercont .redes li {
     width: 100%;
     height: 300px;
   }
-  /* productos */
   .productos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-  .card {
+  .productos .card {
     margin-bottom: 20px;
   }
-  /* carrito */
   .main-layout {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .carrito-pedido {
+  .main-layout .carrito-pedido {
     width: 80%;
   }
-  .producto-carrito {
+  .main-layout .carrito-pedido .producto-carrito {
     display: flex;
     flex-direction: column;
   }
-  .img-carrito {
+  .main-layout .carrito-pedido .producto-carrito .img-carrito {
     margin-top: 15px;
   }
-  .cont-prod-carr {
+  .main-layout .carrito-pedido .producto-carrito .cont-prod-carr {
     display: flex;
     flex-direction: column;
   }
-  .button-carrito {
+  .main-layout .carrito-pedido .producto-carrito .cont-prod-carr .button-carrito {
     margin: 10px;
   }
-  .resumen {
+  .main-layout .resumen {
     width: 80%;
     margin: 0 0 30px 0;
   }
