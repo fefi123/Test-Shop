@@ -1,4 +1,4 @@
-/* main */
+// main
 
 .fondo {
   width: 100%;
@@ -10,4 +10,16 @@
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
+}
+
+.wpp-icon {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  margin: 15px;
+  transition: all 0.5s ease-in-out;
+}
+.wpp-icon:hover {
+  transform: scale(1.3);
 }
