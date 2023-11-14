@@ -19,7 +19,8 @@
   width: 80px;
   margin: 15px;
   transition: all 0.5s ease-in-out;
-}
-.wpp-icon:hover {
-  transform: scale(1.3);
+
+  &.wpp-icon:hover {
+    transform: scale(1.3);
+  }
 }

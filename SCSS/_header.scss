@@ -2,37 +2,36 @@ header {
   display: flex;
   justify-content: center;
   width: 100%;
-}
 
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-}
+  nav {
+    width: 80%;
 
-.logo {
-  border-radius: 50%;
-  height: 90px;
-  margin-top: 15px;
-}
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
 
-nav ul {
-  display: flex;
-}
+      ul {
+        display: flex;
+        list-style-type: none;
 
-.boton {
-  text-decoration: none;
-  list-style-type: none;
-  padding: 10px;
-  font-size: 23px;
-  color: #2dbb44;
-}
+        li {
+          .boton {
+            padding: 10px;
+            font-size: 23px;
+            color: #2dbb44;
 
-.boton :hover {
-  background-color: #2dbb44;
-  color: #ffff;
-  border-radius: 5px;
-  border: none;
-  transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+            &:hover {
+              background-color: #2dbb44;
+              color: #ffff;
+              border-radius: 5px;
+              border: none;
+              transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+            }
+          }
+        }
+      }
+    }
+  }
 }
