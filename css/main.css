@@ -14,6 +14,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -65,7 +69,7 @@ header nav .navbar ul li .boton:hover {
   margin: 15px;
   transition: all 0.5s ease-in-out;
 }
-.wpp-icon.wpp-icon:hover {
+.wpp-icon:hover {
   transform: scale(1.3);
 }
 
@@ -93,38 +97,81 @@ header nav .navbar ul li .boton:hover {
   font-size: 22px;
 }
 
-.productos {
+.containerFluid {
+  width: 80%;
+  display: flex;
+}
+.containerFluid .categories {
+  width: 20%;
+  height: 290px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  margin-right: 15px;
+}
+.containerFluid .categories input {
+  margin: 10px 0;
+  padding: 5px;
+}
+.containerFluid .categories li {
+  padding: 5px 3px;
+  border-bottom: outset;
+  border-radius: 5px;
+  border-width: 1px;
+  margin-bottom: 5px;
+  width: 85%;
+}
+.containerFluid .categories li:hover {
+  background-color: #2dbb44;
+  cursor: pointer;
+}
+.containerFluid .categories li a {
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  text-decoration: none;
+}
+.containerFluid .productos {
   display: flex;
   text-align: center;
   margin-bottom: 30px;
   width: 80%;
 }
-.productos .card {
+.containerFluid .productos .card {
+  position: relative;
   box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
-  background-color: #2dbb44;
+  height: 252px;
   margin: 0 10px 20px 0;
+  cursor: pointer;
 }
-.productos .card img {
+.containerFluid .productos .card:hover .card-info {
+  opacity: 1;
+}
+.containerFluid .productos .card img {
   border-radius: 5px;
   width: 252px;
   height: 252px;
 }
-.productos .card .card-info {
+.containerFluid .productos .card .card-info {
+  opacity: 0;
+  position: absolute;
+  top: 210px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
+  background-color: #2dbb44;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
-.productos .card .card-info h3 {
+.containerFluid .productos .card .card-info h3 {
   font-size: 20px;
   font-weight: 400;
 }
-.productos .card .card-info p {
+.containerFluid .productos .card .card-info p {
   font-weight: 300;
 }
-.productos .card .card-info button {
+.containerFluid .productos .card .card-info button {
   background-color: yellow;
   border-radius: 5px;
   cursor: pointer;
