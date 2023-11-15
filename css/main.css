@@ -94,7 +94,7 @@ header nav .navbar ul li .boton:hover {
 }
 .title h2 {
   font-weight: 600;
-  font-size: 22px;
+  font-size: 25px;
 }
 
 .containerFluid {
@@ -108,7 +108,7 @@ header nav .navbar ul li .boton:hover {
   margin-right: 15px;
 }
 .containerFluid .categories input {
-  margin: 10px 0;
+  margin: 10px 1px;
   padding: 5px;
 }
 .containerFluid .categories li {
@@ -144,7 +144,8 @@ header nav .navbar ul li .boton:hover {
   cursor: pointer;
 }
 .containerFluid .productos .card:hover .card-info {
-  opacity: 1;
+  opacity: 0.7;
+  transition: 1s;
 }
 .containerFluid .productos .card img {
   border-radius: 5px;
@@ -312,12 +313,23 @@ footer .footercont .redes li {
   }
 }
 @media (max-width: 768px) {
-  .productos {
+  .containerFluid {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .containerFluid .categories {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .containerFluid .productos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
   }
-  .productos .card {
+  .containerFluid .productos .card {
     margin-bottom: 20px;
   }
 }
