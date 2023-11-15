@@ -164,7 +164,7 @@ header nav .navbar ul li .boton:hover {
 .resumen {
   display: flex;
   flex-direction: column;
-  width: 37%;
+  width: 39%;
   box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.25);
   margin: 0 0 30px 10px;
   align-items: center;
@@ -221,45 +221,6 @@ footer .footercont .redes li {
 }
 /* tablet */
 @media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    align-items: center;
-  }
-  .navbar ul {
-    display: flex;
-    text-align: center;
-  }
-  .footercont {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 10px;
-  }
-  .footercont .redes {
-    display: flex;
-  }
-  .ubicacion {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .ubicacion .local {
-    height: auto;
-    margin-bottom: 20px;
-    width: 100%;
-  }
-  .ubicacion iframe {
-    width: 100%;
-    height: 300px;
-  }
-  .productos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .productos .card {
-    margin-bottom: 20px;
-  }
   .main-layout {
     display: flex;
     flex-direction: column;
@@ -285,6 +246,54 @@ footer .footercont .redes li {
   .main-layout .resumen {
     width: 80%;
     margin: 0 0 30px 0;
+  }
+}
+@media (max-width: 768px) {
+  .ubicacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ubicacion .local {
+    height: auto;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .ubicacion iframe {
+    width: 100%;
+    height: 300px;
+  }
+}
+@media (max-width: 768px) {
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .productos .card {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .footercont {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .footercont .redes {
+    display: flex;
+  }
+}
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar ul {
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
   }
 }
 

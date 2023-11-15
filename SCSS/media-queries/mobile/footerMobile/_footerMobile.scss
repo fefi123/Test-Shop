@@ -1,0 +1,12 @@
+@include mobile {
+  .footercont {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+
+    .redes {
+      display: flex;
+    }
+  }
+}

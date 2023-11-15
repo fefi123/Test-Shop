@@ -1,4 +1,4 @@
-@media (min-width: 1024px) {
+@include desktop {
   .productos {
     display: flex;
     flex-wrap: wrap;
