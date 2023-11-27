@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "categoria": "Tarjetas",
+    "nombre": "Invitación Digital",
+    "precio": 100,
+    "imagen": "https://res.cloudinary.com/dwpppqzr4/image/upload/v1690160531/Rumble%20Store/asus-z690_qrblrw.jpg"
+  },
+  {
+    "id": 2,
+    "categoria": "Lamina Comestible",
+    "nombre": "Lamina Comestible",
+    "precio": 200,
+    "imagen": "https://res.cloudinary.com/dwpppqzr4/image/upload/v1690160531/Rumble%20Store/asus-z690_qrblrw.jpg"
+  },
+  {
+    "id": 3,
+    "categoria": "Souvenir",
+    "nombre": "Taza",
+    "precio": 100,
+    "imagen": "https://res.cloudinary.com/dwpppqzr4/image/upload/v1690160531/Rumble%20Store/asus-z690_qrblrw.jpg"
+  },
+  {
+    "id": 4,
+    "categoria": "Bolsas y Cajas",
+    "nombre": "MilkBox",
+    "precio": 100,
+    "imagen": "https://res.cloudinary.com/dwpppqzr4/image/upload/v1690160531/Rumble%20Store/asus-z690_qrblrw.jpg"
+  }
+]

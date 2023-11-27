@@ -22,6 +22,7 @@
     input {
       margin: 10px 1px;
       padding: 5px;
+      border-radius: 5px;
     }
 
     li {
@@ -61,8 +62,9 @@
       cursor: pointer;
 
       &:hover .card-info {
-        opacity: 0.7;
-        transition: 1s;
+        opacity: 0.8;
+
+        visibility: unset;
       }
 
       img {
@@ -72,6 +74,7 @@
       }
 
       .card-info {
+        visibility: hidden;
         opacity: 0;
         position: absolute;
         top: 210px;
@@ -83,6 +86,7 @@
         background-color: #2dbb44;
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
+        transition: opacity 0.4s, visibility 1s ease-in-out;
 
         h3 {
           font-size: 20px;
